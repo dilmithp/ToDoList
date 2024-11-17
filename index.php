@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 include 'header.php';
-include 'includes/conn.inc.php';
+include 'includes/db.inc.php';
 
 // Fetch task data from the database
 $query = "SELECT * FROM tasks ORDER BY due_date ASC LIMIT 5";

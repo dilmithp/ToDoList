@@ -277,3 +277,58 @@ footer ul li a:hover {
   border-radius: 5px;
   text-align: center;
 }
+
+/* About Section */
+.about {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about h3 {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.about ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.about .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.about .btn:hover {
+  background-color: #0056b3;
+}
