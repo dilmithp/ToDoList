@@ -1,8 +1,14 @@
 /* General Styles */
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
   background-color: #f4f4f9;
   color: #333;
 }
@@ -11,6 +17,13 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* Layout for Sticky Footer */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Header Styles */
@@ -56,6 +69,8 @@ nav ul li a:hover {
 
 /* Main Content Styles */
 main {
+  flex: 1;
+  /* Ensures the main content area expands to fill available space */
   padding: 20px 0;
 }
 
