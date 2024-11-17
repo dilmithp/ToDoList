@@ -116,3 +116,44 @@ footer ul li a:hover {
     margin: 5px 0;
   }
 }
+
+/* Tasks Summary Section */
+.tasks-summary {
+  padding: 40px 20px;
+  background-color: #fff;
+  border-top: 2px solid #007bff;
+  color: #333;
+}
+
+.tasks-summary h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f9;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task-list li .task-name {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.task-list li .task-date {
+  font-size: 0.9rem;
+  color: #555;
+}
