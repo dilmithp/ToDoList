@@ -20,7 +20,7 @@
 
       <nav>
         <ul>
-          <li><a href="index.php">Home</a></li>
+          <li><a href="tasks.php">Task</a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="contact.php">Contact</a></li>
           <?php if (isset($_SESSION['user_id'])): ?>
